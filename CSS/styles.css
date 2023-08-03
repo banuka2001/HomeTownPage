@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .section {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  #t{
+    background-color: aqua;
+  }
+  #m{
+    background-color: red;
+  }
+  #b{
+    background-color: black;
+  }
